@@ -1,4 +1,11 @@
-<img src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="picture of people at the movies" class="banner">
+<div class="banner" alt="picture of people at the movies" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1485095329183-d0797cdc5676?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">
+  <div class="container">
+    <h1>Movie <strong>Watch List</strong></h1>
+    <p>Save lists of your fav movies!</p>
+    <a class="btn btn-flat" href="/lists/new">Add List</a>
+  </div>
+</div>
+
 <h1>My Lists</h1>
 <ul>
 <% @lists.each do |list| %>
